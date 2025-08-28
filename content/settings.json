@@ -1,22 +1,26 @@
 {
-  "store_id": 51622,
-  "name": "distribuidorajacutinga",
-  "domain": "distribuidorajacutinga.netlify.app",
-  "short_name": "distribuidorajacutinga",
-  "description": "distribuidorajacutinga.",
-  "primary_color": "#222831",
-  "secondary_color": "#393e46",
+  "store_id": 51603,
+  "name": "Rodrilagos - Família Macahe",
+  "domain": "loja.familiamacahe.com.br",
+  "short_name": "familiamacahe",
+  "description": "Seleção de bebidas: refrigerantes Macahé, Cerveja Mabros, vinhos, energéticos, cachaças e mais. Aproveite nossas promoções semanais!",
+  "primary_color": "#131313",
+  "secondary_color": "#131313",
   "bg_color": "#ffffff",
   "theme": {
-    "bootswatch": "_"
+    "bootswatch": "_",
+    "custom": "_"
   },
-  "logo": "/img/uploads/logo.png",
+  "logo": "/img/uploads/rodrilagos_horizontal.png",
   "mini_logo": "",
-  "icon": "/img/icon.png",
-  "large_icon": "/img/large-icon.png",
-  "favicon": "/img/uploads/favicon.png",
+  "icon": "/img/uploads/rodrilagos_rounded.png",
+  "large_icon": "/img/uploads/rodrilagos_rounded.png",
+  "favicon": "/img/uploads/rodrilagos_rounded.png",
   "lang": "pt_br",
   "currency": "BRL",
   "currency_symbol": "R$",
-  "country_code": "BR"
+  "country_code": "BR",
+  "repository": "ecomplus-stores/familiamacahe",
+  "icons_font": "_",
+  "font_family": "_"
 }

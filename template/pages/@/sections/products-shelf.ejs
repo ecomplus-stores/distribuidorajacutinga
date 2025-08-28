@@ -1,0 +1,80 @@
+<% 
+  const header = _.cms('header') || {}
+  let categories_ = []
+  if (header.categories_list) {
+    if (header.categories_list.featured.length) {
+      categories_ = header.categories_list.featured.map(pathAndName => {
+        const [path, name] = pathAndName.split('?')
+        return { slug: path.slice(1), name }
+      })
+    }
+    if (header.categories_list.random) {
+      // add up to `random` main categories
+      const mainCategories = _.categories.filter(({ parent }) => !parent || !parent.slug)
+      for (let i = 0; i < header.categories_list.random && i < mainCategories.length; i++) {
+        if (!categories_.find(({ slug }) => mainCategories[i].slug === slug)) {
+          categories_.push(mainCategories[i])
+        }
+      }
+    }
+  }
+  
+  let categories = _.categories.filter(({ parent }) => !parent || !parent.slug)
+  if (categories_.length) {
+    // Ordena categories conforme a ordem de categories_
+    categories.sort((a, b) => {
+      const idxA = categories_.findIndex(cat => cat.slug === a.slug)
+      const idxB = categories_.findIndex(cat => cat.slug === b.slug)
+      // Se não encontrar, joga para o final
+      return (idxA === -1 ? Number.MAX_SAFE_INTEGER : idxA) - (idxB === -1 ? Number.MAX_SAFE_INTEGER : idxB)
+    })
+  }
+%>
+
+<% if (categories && categories.length) { %>
+  <% for (const { slug, name, _id } of categories) { %>    
+      <% const subcategories = _.categories.filter(({ parent }) => parent && parent.slug === slug) %>
+        <% if (subcategories.length) { %>
+          <%           
+            subcategories.sort((a, b)=> {
+              return b.name > a.name ? -1 : 1
+            })            
+          %>
+         
+        <% } else { %>
+          <%
+          
+          let title = name
+          let link = `/${slug}`
+          search = new _.EcomSearch().setCategoryIds([_id])
+          //search.setSortOrder(opt.sort)
+          search.setPageSize(999)
+          try {
+            await search.fetch()
+            items = search.getItems()
+          } catch (err) {
+            console.error(err)
+          }
+
+          //console.log(items)
+          if (items && items.length) {
+            items.sort((a, b) => {
+              return a.name.localeCompare(b.name)
+            }) 
+
+            %>
+
+            <div class="collection-shelf my-lg-5 my-4">
+              <%- await include('@/sections/inc/products-custom-shelf', {
+                _, opt: { items, title, link }
+              }) %>
+            </div>
+            <%
+          }
+
+          %>
+
+          
+        <% }%>
+  <% } %>
+<% } %>
