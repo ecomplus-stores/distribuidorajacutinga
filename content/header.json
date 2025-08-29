@@ -1,23 +1,7 @@
 {
   "categories_list": {
     "featured": [
-      "/promocoes-da-semana?Promoções da Semana",
-      "/refrigerante-macahe?Refri Macahé",
-      "/rainha-do-brasil?Refri Rainha do Brasil",
-      "/mabros?Cerveja Mabros",
-      "/stempel?Stempel",
-      "/acquissima?Águas",
-      "/jacutinga?Jacutinga",
-      "/outras-bebidas-alcoolicas?Cervejas",
-      "/refrigerante?Refrigerantes",
-      "/energetico?Energético",
-      "/refresco--suco?Refresco / Suco",
-      "/outros-refrigerantes?Isotonico",
-      "/cachaca--bebida-quente?Cachaça / Aguardente",
-      "/vinhos?Vinhos",
-      "/oleo?Outros Alcoólicos",
-      "/ice?ICE",
-      "/cafe?Alimentos"
+      
     ],
     "random": 20,
     "full_width": false
