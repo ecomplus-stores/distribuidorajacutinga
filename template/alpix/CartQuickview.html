@@ -86,7 +86,7 @@
           v-if="cart.subtotal || cart.items.length"
         >
           <!-- Barra de progresso para pedido mínimo -->
-          <div class="minicart__minimum-order" v-if="cart.subtotal < 200">
+          <div class="minicart__minimum-order" v-if="cart.subtotal < 60">
             <div class="progress-container">
               <div class="progress-label">
                 <span class="remaining-amount">
@@ -96,7 +96,7 @@
               <div class="progress-bar-container">
                 <div 
                   class="progress-bar" 
-                  :style="{ width: Math.min((cart.subtotal / 200) * 100, 100) + '%' }"
+                  :style="{ width: Math.min((cart.subtotal / 60) * 100, 100) + '%' }"
                 ></div>
               </div>              
             </div>
@@ -114,7 +114,7 @@
 
           <!-- Botão de checkout - só aparece se atingir o mínimo -->
           <a-link
-            v-if="cart.subtotal >= 200"
+            v-if="cart.subtotal >= 60"
             class="minicart__btn-checkout btn btn-block btn-primary"
             role="button"
             :href="checkoutUrl"
