@@ -15,7 +15,8 @@
   "icon": "/img/uploads/jacutinga_ico.svg",
   "large_icon": "/img/uploads/jacutinga_ico.svg",
   "favicon": "/img/uploads/jacutinga_ico.svg",
-  "lang": "pt_br",
+  "lang": "pt_br",    
+  "repository": "ecomplus-stores/distribuidorajacutinga",
   "currency": "BRL",
   "currency_symbol": "R$",
   "country_code": "BR"
