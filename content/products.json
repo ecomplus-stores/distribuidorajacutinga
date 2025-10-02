@@ -33,6 +33,18 @@
     {
       "type": "product-specifications",
       "enabled": true
+    },
+    {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": true,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner2.png"
+        }
+      ]
     }
   ]
 }
