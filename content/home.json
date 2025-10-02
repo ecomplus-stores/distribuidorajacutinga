@@ -14,6 +14,16 @@
           "link": "https://loja.familiajacutinga.com.br/cachaca-jacutinga-armazenada-em-barril-de-carvalho-700ml"
         }
       ]
-    }    
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "skus": [
+        "WLB7251"
+      ],
+      "title": "Cachaça"
+    }
   ]
 }
