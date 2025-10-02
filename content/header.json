@@ -1,8 +1,6 @@
 {
   "categories_list": {
-    "featured": [
-      
-    ],
+    "featured": [],
     "random": 20,
     "full_width": false
   },
@@ -13,6 +11,7 @@
     "link": "/promotion"
   },
   "alphabetical_order_submenu": false,
+  "popup": "/img/uploads/logo_jacutinga.png",
   "name_all_departments": "",
   "search_input": true,
   "desktop_megamenu": false,
