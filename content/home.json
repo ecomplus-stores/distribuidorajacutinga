@@ -3,18 +3,6 @@
   "meta_description": "",
   "sections": [
     {
-      "type": "search-shelf"
-    },
-    {
-      "type": "category-shelf"
-    },
-    {
-      "type": "page-title"
-    },
-    {
-      "type": "products-shelf"
-    },
-    {
       "type": "banner-slider",
       "autoplay": 9000,
       "full_width": true,
@@ -25,6 +13,18 @@
           "img": "/img/uploads/banner2.webp"
         }
       ]
+    },
+    {
+      "type": "search-shelf"
+    },
+    {
+      "type": "category-shelf"
+    },
+    {
+      "type": "page-title"
+    },
+    {
+      "type": "products-shelf"
     }
   ]
 }
