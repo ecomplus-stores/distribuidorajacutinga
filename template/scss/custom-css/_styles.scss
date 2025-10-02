@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     img{
       max-width:100%;
-      width: 210px;
+      
     }
   }
 }
@@ -977,9 +977,9 @@ header.header{background: #fff;}
     }
   }
   .aside-right{
-    height: calc(100dvh - 113px - 15px);
+    height: calc(100dvh - 124px - 15px);
     padding: 1.5rem;
-    top: 113px;
+    top: 124px;
 
   }
   .animated-logo-spin{display: none;}
@@ -1050,4 +1050,11 @@ header.header{background: #fff;}
       }
     }
   }
+}
+
+.responsive-baner{
+  .container{
+    padding: 0;
+  }
+  img{width: 100%;border-radius: var(--brad);}
 }
