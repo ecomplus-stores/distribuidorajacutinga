@@ -3,7 +3,7 @@ const path = require('path')
 module.exports = () => ({
   resolve: {
     alias: {
-     
+     './base-config': path.resolve(__dirname, 'template/js/netlify-cms/base-config'),
       './html/ProductCard.html': path.resolve(__dirname, 'template/alpix/ProductCard.html'),
       './js/ProductCard.js': path.resolve(__dirname, 'template/alpix/ProductCard.js'),
       './js/TheProduct.js': path.resolve(__dirname, 'template/alpix/TheProduct.js'),
