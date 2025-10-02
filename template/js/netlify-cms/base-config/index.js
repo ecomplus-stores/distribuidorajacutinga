@@ -11,14 +11,13 @@ export default options => {
   
   const collectionShelf = sections.find(el => el.name === 'collection-shelf')
   if (collectionShelf && Array.isArray(collectionShelf.fields)) {
-    collectionShelf.fields.push({
+    collectionShelf.fields.unshift({
       label: 'Identificador do Produto',
       name: 'skus',
       widget: 'select',
           multiple: true,
           options: [
             ...options.state.routes
-            .filter(({ sku }) => typeof sku === 'string')
             .map(({ sku }) => ({
               label: 'Produto - ' + sku,
               value: sku
