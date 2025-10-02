@@ -1,8 +1,10 @@
 <%
-let { title, link, shuffle, headless, autoplay } = opt
+let { title, link, shuffle, headless, autoplay, skus } = opt
 let items, collection
+ let search, productIds
 if (opt.sort || opt.collection_id) {
   let search, productIds
+  
   if (opt.collection_id) {
     const [_id, resource, name, path] = opt.collection_id.split(':')
     if (!title) {
@@ -11,7 +13,7 @@ if (opt.sort || opt.collection_id) {
     if (!link) {
       link = path
     }
-
+    
     if (resource === 'categories') {
       search = new _.EcomSearch().setCategoryIds([_id])
     } else if (resource === 'brands') {
@@ -32,7 +34,9 @@ if (opt.sort || opt.collection_id) {
           search = new _.EcomSearch().setProductIds(productIds.slice(0, 70))
         }
       }
+    
     }
+    
   } else {
     search = new _.EcomSearch()
   }
@@ -60,14 +64,36 @@ if (opt.sort || opt.collection_id) {
     }
   }
 } else {
-  const size = opt.limit || 24
-  const offset = opt.page >= 2 ? (opt.page - 1) * size : 0
-  items = _.items.slice(offset, offset + size)
+  
+  if(skus){
+    console.log('SKUs recebidos:', skus)
+    console.log('Tipo dos SKUs:', typeof skus)
+    console.log('É array?', Array.isArray(skus))
+
+    search = new _.EcomSearch().setSkus(skus)
+    try {
+      console.log(search)
+      search.setPageSize(50)
+      search.setPageNumber(1)
+      await search.fetch()
+     
+      
+      items = search.getItems()
+    } catch (err) {
+      console.error(err)
+    }
+  }else{
+    const size = opt.limit || 24
+    const offset = opt.page >= 2 ? (opt.page - 1) * size : 0
+    items = _.items.slice(offset, offset + size)
+  }
+  console.log(`items`,items)
+  
 }
 %>
 
 <div class="collection-shelf my-lg-5">
-  <%- await include('@/sections/inc/products-custom-shelf', {
+  <%- await include('@/sections/inc/products-custom-shelf-new', {
     _, opt: { items, collection, title, link, shuffle, headless, autoplay }
   }) %>
 </div>

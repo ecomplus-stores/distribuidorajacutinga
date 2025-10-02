@@ -16,14 +16,12 @@ export default options => {
       name: 'skus',
       widget: 'select',
           multiple: true,
-          options: [
-            ...options.state.routes
-            .filter(({ sku }) => sku != null)
-            .map(({ sku }) => ({
-              label: 'Produto - ' + sku,
-              value: sku
-            }))            
-          ]                
+          options: options.state.routes
+              .filter(({ sku }) => typeof sku === 'string')
+              .map(({ _id, sku }) => ({
+                label: sku,
+                value: _id
+              })),         
     },)
   
   }
