@@ -184,6 +184,8 @@ if (stamps && Array.isArray(stamps.stamps_list) && stamps.stamps_list.length) {
               <%= _.state.short_description %>
             </p>
           <% } %>
+
+          <div class="full-description"></div>
         </div>
       </div>
 
@@ -259,4 +261,13 @@ if (_.state.gtin && _.state.gtin[0]) {
       }
     }
   }, 50);
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var desc = document.getElementById('product-description');
+    var target = document.querySelector('.full-description');
+    if (desc && target) {
+      target.appendChild(desc);
+    }
+  });
 </script>

@@ -1077,4 +1077,66 @@ header.header{background: #fff;}
     }
   }
 }
-body{  }
+
+.breadcrumb{
+  font-size: 12px;
+}
+
+
+.page-title__head{
+  h1{
+    color: var(--black);
+  }
+}
+#product-block{
+  .product__buy ~ *,
+  .shipping-calculator,
+  .gallery__thumbs{display: none!important;}
+
+  .product__name{
+    font-size: var(--h3);
+    font-family: 'Rubik', Arial, sans-serif;
+  }
+  
+  .product__buy{
+    button{
+      background: var(--green);
+      border: 0;
+      width: min(200px, 100% );
+      i{display: none;}
+      
+      span{
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .full-description{
+    border-top: 1px solid #f2f2f2;
+    padding-top: 1.25rem;
+    margin-top: 1.5rem;
+    // background: #f2f2f2;
+    // padding: 1.5rem;
+    // border-radius: var(--brad);
+    .html-clearfix{margin: 0!important;}
+    h3{
+      line-height: var(--h4) !important;
+      margin-top: 0 !important;
+      font-size: var(--h4);
+      margin-top: 0!important;
+    }
+    p:last-child{margin-bottom: 0!important;}
+    #product-description{margin:0!important}
+    .container{
+      padding: 0!important;
+    }
+  }
+  
+}
+
+#product-description{
+  .lead{display: none;}
+}
+
+.page-title + .category-retail > .retail-grid{margin-top: 0!important;}

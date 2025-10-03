@@ -30,28 +30,37 @@
       <slot name="body">
         
         <slot name="header"/>
-
-        <div class="product-card__pictures">
-          <template v-if="body.pictures && body.pictures.length">
+        <a-link
+          class="product-card__link"
+          :href="`/${body.slug}`"
+          :title="name"
+        >
+          <div class="product-card__pictures">
+            <template v-if="body.pictures && body.pictures.length">
+              <a-picture
+                class="product-card__picture"
+                v-for="(picture, index) in body.pictures.slice(0, 2).reverse()"
+                v-if="body.pictures.length === 1 || index === 1 || isHovered"
+                :key="index"
+                :src="picture"
+                :can-calc-height="false"
+              />
+            </template>
             <a-picture
+              v-else
               class="product-card__picture"
-              v-for="(picture, index) in body.pictures.slice(0, 2).reverse()"
-              v-if="body.pictures.length === 1 || index === 1 || isHovered"
-              :key="index"
-              :src="picture"
-              :can-calc-height="false"
             />
-          </template>
-          <a-picture
-            v-else
-            class="product-card__picture"
-          />
-        </div>
-
+          </div>
+        </a-link>
         
         
       </slot>
       <div>
+        <a-link
+          class="product-card__link"
+          :href="`/${body.slug}`"
+          :title="name"
+        >
         <slot name="title">
           <component
             :is="headingTag"
@@ -60,7 +69,7 @@
             {{ name }}
           </component>
         </slot>
-      
+        </a-link>
         <slot name="rating">
           <div
             v-once

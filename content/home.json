@@ -21,10 +21,80 @@
       "limit": 12,
       "page": 1,
       "skus": [
-        "68beecc4578b5f7954a56faf",
         "68c80b5b578b5f7954acf932"
       ],
       "title": "Cachaça"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "skus": [
+        "68c80b5b578b5f7954acf932"
+      ],
+      "title": "Bebida Mista"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "skus": [
+        "68c80b5b578b5f7954acf932"
+      ],
+      "title": "Coquetel"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "skus": [
+        "68c80b5b578b5f7954acf932"
+      ],
+      "title": "Xarope"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "skus": [
+        "68c80b5b578b5f7954acf932"
+      ],
+      "title": "Água Mineral"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "skus": [
+        "68c80b5b578b5f7954acf932"
+      ],
+      "title": "Vinho"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "skus": [
+        "68c80b5b578b5f7954acf932"
+      ],
+      "title": "Suco"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "skus": [
+        "68c80b5b578b5f7954acf932"
+      ],
+      "title": "Carvão Vegetal"
     }
+    
   ]
 }

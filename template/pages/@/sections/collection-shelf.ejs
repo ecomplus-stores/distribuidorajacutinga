@@ -70,7 +70,7 @@ if (opt.sort || opt.collection_id) {
     console.log('Tipo dos SKUs:', typeof skus)
     console.log('É array?', Array.isArray(skus))
 
-    search = new _.EcomSearch().setSkus(skus)
+    search = new _.EcomSearch().setProductIds(skus)
     try {
       console.log(search)
       search.setPageSize(50)
@@ -87,7 +87,13 @@ if (opt.sort || opt.collection_id) {
     const offset = opt.page >= 2 ? (opt.page - 1) * size : 0
     items = _.items.slice(offset, offset + size)
   }
-  console.log(`items`,items)
+  //console.log(`items`,items)
+  if (items && Array.isArray(skus)) {
+    items.sort((a, b) => {
+      return skus.indexOf(a._id) - skus.indexOf(b._id)
+    })
+  }
+  
   
 }
 %>

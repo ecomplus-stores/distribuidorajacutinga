@@ -11,32 +11,31 @@ document.addEventListener('click', (e) => {
 });
 
 
-document.addEventListener('click', function(e) {
-  const scrollBtn = e.target.closest('[data-scroll]');
-  if (scrollBtn) {
-    e.preventDefault();
-    const targetId = scrollBtn.getAttribute('data-scroll');
-    const targetEl = document.getElementById(targetId);
-    if (targetEl) {
-      // Calcular posição com offset de -30px
-      const elementPosition = targetEl.getBoundingClientRect().top + window.pageYOffset;
-      const offsetPosition = elementPosition - (window.innerWidth < 990 ? 150 : 130);
+// document.addEventListener('click', function(e) {
+//   const scrollBtn = e.target.closest('[data-scroll]');
+//   if (scrollBtn) {
+//     e.preventDefault();
+//     const targetId = scrollBtn.getAttribute('data-scroll');
+//     const targetEl = document.getElementById(targetId);
+//     if (targetEl) {
+//       const elementPosition = targetEl.getBoundingClientRect().top + window.pageYOffset;
+//       const offsetPosition = elementPosition - (window.innerWidth < 990 ? 150 : 130);
       
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      });
+//       window.scrollTo({
+//         top: offsetPosition,
+//         behavior: 'smooth'
+//       });
 
-      $(`.aside-left, .aside-right`).removeClass('visible');
-    } else {
-      if (scrollBtn.tagName === 'A' && scrollBtn.href) {
-        window.location.href = scrollBtn.href;
-      } else {
-        scrollBtn.click();
-      }
-    }
-  }
-});
+//       $(`.aside-left, .aside-right`).removeClass('visible');
+//     } else {
+//       if (scrollBtn.tagName === 'A' && scrollBtn.href) {
+//         window.location.href = scrollBtn.href;
+//       } else {
+//         scrollBtn.click();
+//       }
+//     }
+//   }
+// });
 
 const EcomPassport = require('@ecomplus/passport-client');
   
