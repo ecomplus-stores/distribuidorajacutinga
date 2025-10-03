@@ -20,7 +20,7 @@ export default options => {
               .filter(({ sku }) => typeof sku === 'string')
               .map(({ _id, sku }) => ({
                 label: sku,
-                value: _id
+                value: _id 
               })),         
     },)
   
