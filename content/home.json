@@ -21,6 +21,10 @@
       "limit": 12,
       "page": 1,
       "skus": [
+        "68acb2f1578b5f795493978a",
+        "68acb2f2578b5f795493978e",
+        "68acb2f4578b5f795493979b",
+        "68acb2f3578b5f7954939793",
         "68c80b5b578b5f7954acf932"
       ],
       "title": "Cachaça"
@@ -31,7 +35,13 @@
       "limit": 12,
       "page": 1,
       "skus": [
-        "68c80b5b578b5f7954acf932"
+        "68acb2f5578b5f795493979f",
+        "68acb2f6578b5f79549397a2",
+        "68acb2f7578b5f79549397a5",
+        "68acb2f8578b5f79549397a9",
+        "68acb2f9578b5f79549397ac",
+        "68acb2fa578b5f79549397b1",
+        "68acb2fb578b5f79549397b4"
       ],
       "title": "Bebida Mista"
     },
@@ -41,7 +51,7 @@
       "limit": 12,
       "page": 1,
       "skus": [
-        "68c80b5b578b5f7954acf932"
+        "68acb2f7578b5f79549397a5"
       ],
       "title": "Coquetel"
     },
@@ -51,7 +61,8 @@
       "limit": 12,
       "page": 1,
       "skus": [
-        "68c80b5b578b5f7954acf932"
+        "68acb2fd578b5f79549397bb"
+
       ],
       "title": "Xarope"
     },
@@ -61,7 +72,9 @@
       "limit": 12,
       "page": 1,
       "skus": [
-        "68c80b5b578b5f7954acf932"
+        "68acb302578b5f79549397cd",
+        "68acb301578b5f79549397c8",
+        "68acb300578b5f79549397c5"
       ],
       "title": "Água Mineral"
     },
@@ -71,7 +84,9 @@
       "limit": 12,
       "page": 1,
       "skus": [
-        "68c80b5b578b5f7954acf932"
+        "68acb303578b5f79549397d3",
+        "68acb305578b5f79549397db",
+        "68acb304578b5f79549397d7"
       ],
       "title": "Vinho"
     },
@@ -81,7 +96,7 @@
       "limit": 12,
       "page": 1,
       "skus": [
-        "68c80b5b578b5f7954acf932"
+        "68acb306578b5f79549397e0"
       ],
       "title": "Suco"
     },
@@ -91,7 +106,8 @@
       "limit": 12,
       "page": 1,
       "skus": [
-        "68c80b5b578b5f7954acf932"
+        "68acb2ff578b5f79549397c2",
+        "68acb2fe578b5f79549397bf"
       ],
       "title": "Carvão Vegetal"
     }
