@@ -17,7 +17,7 @@ export default options => {
       widget: 'select',
           multiple: true,
           options: options.state.routes
-              .filter(({ sku }) => typeof sku === 'string')
+              .filter(({ sku }) => typeof sku != 'undefined')
               .map(({ _id, sku }) => ({
                 label: sku,
                 value: _id 
