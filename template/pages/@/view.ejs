@@ -111,7 +111,24 @@
       </div>
     </div>
   </div>
+  <%
+// load footer options and contacts from content
 
+const contacts = _.cms('contacts') || {}
+
+%>
+<% if (contacts.whatsapp) { %>   
+  <a
+    href="https://wa.me/55<%= contacts.whatsapp.replace(/\D/g, '') %>"
+    target="_blank"
+    rel="noopener"
+    class="floating-whatsapp-link"
+    data-tel="<%= contacts.whatsapp.replace(/\D/g, '') %>"
+  >
+    <i class="i-whatsapp"></i>
+  </a>
+
+<% } %>
   <script>
   document.addEventListener("DOMContentLoaded", function() {
     if (sessionStorage.getItem('age_verified') !== 'true') {
