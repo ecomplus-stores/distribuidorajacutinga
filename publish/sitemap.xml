@@ -2,51 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>https://loja.familiajacutinga.com.br/cachaca</loc>
+      <loc>https://loja.familiajacutinga.com.br/canela-jacutinga</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.9</priority>
     </url>
   
     <url>
-      <loc>https://loja.familiajacutinga.com.br/bebida-mista</loc>
+      <loc>https://loja.familiajacutinga.com.br/mel-jacutinga</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.9</priority>
     </url>
   
     <url>
-      <loc>https://loja.familiajacutinga.com.br/agua-mineral</loc>
+      <loc>https://loja.familiajacutinga.com.br/menta-jacutinga</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.9</priority>
     </url>
   
     <url>
-      <loc>https://loja.familiajacutinga.com.br/coquetel</loc>
+      <loc>https://loja.familiajacutinga.com.br/milho-verde-jacutinga</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.9</priority>
     </url>
   
     <url>
-      <loc>https://loja.familiajacutinga.com.br/vinho</loc>
+      <loc>https://loja.familiajacutinga.com.br/coquetel-de-morango-jacutinga-docuras-da-suely</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://loja.familiajacutinga.com.br/suco</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://loja.familiajacutinga.com.br/xarope</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://loja.familiajacutinga.com.br/carvao-vegetal</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.9</priority>
     </url>
   
     <url>
@@ -122,6 +104,54 @@
     </url>
   
     <url>
+      <loc>https://loja.familiajacutinga.com.br/cachaca</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://loja.familiajacutinga.com.br/bebida-mista</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://loja.familiajacutinga.com.br/agua-mineral</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://loja.familiajacutinga.com.br/coquetel</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://loja.familiajacutinga.com.br/vinho</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://loja.familiajacutinga.com.br/suco</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://loja.familiajacutinga.com.br/xarope</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://loja.familiajacutinga.com.br/carvao-vegetal</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
       <loc>https://loja.familiajacutinga.com.br/pages/contato</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
@@ -146,13 +176,13 @@
     </url>
   
     <url>
-      <loc>https://loja.familiajacutinga.com.br/pages/privacidade</loc>
+      <loc>https://loja.familiajacutinga.com.br/pages/sobre-nos</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://loja.familiajacutinga.com.br/pages/sobre-nos</loc>
+      <loc>https://loja.familiajacutinga.com.br/pages/privacidade</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
