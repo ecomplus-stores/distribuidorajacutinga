@@ -10,8 +10,22 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner1.png",
-          "link": "https://loja.familiajacutinga.com.br/cachaca-jacutinga-armazenada-em-barril-de-carvalho-700ml"
+          "img": "/img/uploads/banner_site-copiar.jpg",
+          "link": "",
+          "mobile_img": "/img/uploads/banner_site_mobile-copiar.jpg"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner_site_2-copiar.jpg",
+          "mobile_img": "/img/uploads/banner_site_mobile_2-copiar.jpg"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner_site_3-copiar.jpg",
+          "mobile_img": "/img/uploads/banner_site_mobile_3-copiar.jpg",
+          "link": "/vinho"
         }
       ]
     },
@@ -62,7 +76,6 @@
       "page": 1,
       "skus": [
         "68acb2fd578b5f79549397bb"
-
       ],
       "title": "Xarope"
     },
@@ -111,6 +124,5 @@
       ],
       "title": "Carvão Vegetal"
     }
-    
   ]
 }
