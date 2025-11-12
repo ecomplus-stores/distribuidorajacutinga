@@ -102,7 +102,7 @@
         "68acb305578b5f79549397db",
         "68acb304578b5f79549397d7"
       ],
-      "title": "Vinho"
+      "title": "Vinícola"
     },
     {
       "type": "collection-shelf",
@@ -110,18 +110,7 @@
       "limit": 12,
       "page": 1,
       "skus": [
-        "68acb306578b5f79549397e0"
-      ],
-      "title": "Suco"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "skus": [
-        "68acb2ff578b5f79549397c2",
-        "68acb2fe578b5f79549397bf"
+        "68acb146578b5f795493930f"
       ],
       "title": "Carvão Vegetal"
     }
