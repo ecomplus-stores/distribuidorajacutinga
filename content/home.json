@@ -110,7 +110,18 @@
       "limit": 12,
       "page": 1,
       "skus": [
-        "68acb146578b5f795493930f"
+        "68acb306578b5f79549397e0"
+      ],
+      "title": ""
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "skus": [
+        "68acb2ff578b5f79549397c2",
+        "68acb2fe578b5f79549397bf"
       ],
       "title": "Carvão Vegetal"
     }
