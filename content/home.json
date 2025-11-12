@@ -100,19 +100,10 @@
       "skus": [
         "68acb303578b5f79549397d3",
         "68acb305578b5f79549397db",
-        "68acb304578b5f79549397d7"
-      ],
-      "title": "Vinícola"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "skus": [
+        "68acb304578b5f79549397d7",
         "68acb306578b5f79549397e0"
       ],
-      "title": ""
+      "title": "Vinícola"
     },
     {
       "type": "collection-shelf",
