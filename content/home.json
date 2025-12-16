@@ -36,18 +36,15 @@
       "limit": 12,
       "page": 1,
       "skus": [
-        "68acb2f6578b5f79549397a2",
-        "68acb2fb578b5f79549397b4",
-        "68acb2f9578b5f79549397ac",
-        "68acb2f5578b5f795493979f",
-        "691601c8c650040a8c33dd4c",
-        "68acb2fa578b5f79549397b1",
-        "68acb2f8578b5f79549397a9",
-        "68acb2f7578b5f79549397a5"
+        "68acb2f1578b5f795493978a",
+        "68acb2f2578b5f795493978e",
+        "68c80b5b578b5f7954acf932",
+        "68acb2f4578b5f795493979b",
+        "68acb2f3578b5f7954939793"
       ],
       "title": "Cachaça",
       "collection_id": "68acb11e578b5f7954939297:categories:Bebida Mista:/bebida-mista",
-      "sort": null
+      "sort": "sales"
     },
     {
       "type": "collection-shelf",
