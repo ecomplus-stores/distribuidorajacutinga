@@ -52,16 +52,17 @@
       "limit": 12,
       "page": 1,
       "skus": [
-        "68acb2f5578b5f795493979f",
         "68acb2f6578b5f79549397a2",
-        "68acb2f7578b5f79549397a5",
-        "68acb2f8578b5f79549397a9",
-        "68acb2f9578b5f79549397ac",
-        "68acb2fa578b5f79549397b1",
         "68acb2fb578b5f79549397b4",
-        "691601c8c650040a8c33dd4c"
+        "68acb2f9578b5f79549397ac",
+        "691601c8c650040a8c33dd4c",
+        "68acb2f5578b5f795493979f",
+        "68acb2fa578b5f79549397b1",
+        "68acb2f8578b5f79549397a9",
+        "68acb2f7578b5f79549397a5"
       ],
-      "title": "Bebida Mista"
+      "title": "Bebida Mista",
+      "collection_id": null
     },
     {
       "type": "collection-shelf",
