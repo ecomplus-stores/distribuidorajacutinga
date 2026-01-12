@@ -119,6 +119,37 @@
         "68acb2fe578b5f79549397bf"
       ],
       "title": "Carvão Vegetal"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "skus": [
+        "69654a5fc650040a8c7a8f25",
+        "69654b98c650040a8c7a9090"
+      ],
+      "title": "Águas"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "skus": [
+        "696548c7c650040a8c7a8c97"
+      ],
+      "title": "Chopp de Vinho"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "skus": [
+        ""
+      ],
+      "title": "Refrigerante Rainha do Brasil"
     }
   ]
 }
