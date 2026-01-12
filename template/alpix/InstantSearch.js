@@ -70,18 +70,18 @@ export default {
   },
 
   mounted() {
-    //console.log('Component mounted')
+    console.log('Component mounted')
     let self = this
     
     $('.search-shelf input, input[name="term"], .search-input, .apx-search input').on('focus', function(){
-      //console.log('Input focused')
+      console.log('Input focused')
       self.currentInputElement = this // Armazenar referência
       self.show(this)
     })
 
     // Listener para input/keyup - sincronizar valores
     $('.search-shelf input, input[name="term"], .search-input, .apx-search input').on('input keyup', function(){
-      //console.log('Input value changed:', this.value)
+      console.log('Input value changed:', this.value)
       self.localTerm = this.value
       
       // Sincronizar com input interno do InstantSearch
@@ -127,7 +127,7 @@ export default {
       // Verificar se o clique foi em qualquer input de busca
       const isClickInAnySearchInput = $('.search-shelf input, input[name="term"], .search-input, .apx-search input').is(event.target)
       
-      //console.log('Click detected:', {
+      console.log('Click detected:', {
         isClickInsideSearch,
         isClickInsideInput,
         isClickInAnySearchInput,
@@ -136,7 +136,7 @@ export default {
       
       // Só fechar se o clique foi fora de tudo relacionado à busca
       if (!isClickInsideSearch && !isClickInsideInput && !isClickInAnySearchInput) {
-        //console.log('Clicking outside - hiding InstantSearch')
+        console.log('Clicking outside - hiding InstantSearch')
         this.hide()
       }
     },
@@ -170,7 +170,7 @@ export default {
           const left = inputRect.left + window.scrollX
           const width = inputRect.width
           
-          //console.log('Positioning InstantSearch:', {
+          console.log('Positioning InstantSearch:', {
             top: top,
             left: left,
             width: width,
@@ -257,7 +257,7 @@ export default {
   watch: {
     isVisible: {
       handler (isVisible) {
-        //console.log('isVisible changed:', isVisible)
+        console.log('isVisible changed:', isVisible)
         if (isVisible) {
           this.$nextTick(() => {
             // Focar no input interno do componente se existir
