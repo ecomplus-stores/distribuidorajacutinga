@@ -50,5 +50,5 @@ async function updateClientInfo(){
     $('[data-client_name]').text(client.display_name);
     $('[data-client_message]').text(`Minha Conta`);
   }
-  console.log('client name',client)
+  //console.log('client name',client)
 }

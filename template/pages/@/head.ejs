@@ -2,6 +2,7 @@
 
 <%
 const maintenance = _.cms('maintenance') || {}
+console.log('Maintenance mode:', maintenance.active)
 if (maintenance.active) {
   // redirect to maintenance page
   %>

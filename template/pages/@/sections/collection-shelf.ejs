@@ -66,9 +66,9 @@ if (opt.sort || opt.collection_id) {
 } else {
   
   if(skus){
-    console.log('SKUs recebidos:', skus)
-    console.log('Tipo dos SKUs:', typeof skus)
-    console.log('É array?', Array.isArray(skus))
+    // console.log('SKUs recebidos:', skus)
+    // console.log('Tipo dos SKUs:', typeof skus)
+    // console.log('É array?', Array.isArray(skus))
 
     search = new _.EcomSearch().setProductIds(skus)
     try {
