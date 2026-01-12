@@ -5,6 +5,7 @@ const contacts = _.cms('contacts') || {}
 const themeCustom = _.settings.theme.custom || ''
 
 %>
+
 <% if (contacts.whatsapp) { %>   
   <a
     href="https://wa.me/55<%= contacts.whatsapp.replace(/\D/g, '') %>"
