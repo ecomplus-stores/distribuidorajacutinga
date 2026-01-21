@@ -119,7 +119,7 @@ const contacts = _.cms('contacts') || {}
 %>
 <% if (contacts.whatsapp) { %>   
   <a
-    href="https://wa.me/55<%= contacts.whatsapp.replace(/\D/g, '') %>"
+    href="https://wa.me/55<%= contacts.whatsapp.replace(/\D/g, '') %>?text=Olá, vim do site e gostaria de mais informações."
     target="_blank"
     rel="noopener"
     class="floating-whatsapp-link"
